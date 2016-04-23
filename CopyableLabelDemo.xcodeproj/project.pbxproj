@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0E38DD1CCB067B0075A34C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E38DC1CCB067B0075A34C /* AppDelegate.swift */; };
+		BF0E38DF1CCB067B0075A34C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E38DE1CCB067B0075A34C /* ViewController.swift */; };
+		BF0E38E21CCB067B0075A34C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0E38E01CCB067B0075A34C /* Main.storyboard */; };
+		BF0E38E41CCB067B0075A34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0E38E31CCB067B0075A34C /* Assets.xcassets */; };
+		BF0E38E71CCB067B0075A34C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0E38E51CCB067B0075A34C /* LaunchScreen.storyboard */; };
+		BF0E38F21CCB067B0075A34C /* CopyableLabelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E38F11CCB067B0075A34C /* CopyableLabelDemoTests.swift */; };
+		BF0E38FD1CCB067B0075A34C /* CopyableLabelDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E38FC1CCB067B0075A34C /* CopyableLabelDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF0E38EE1CCB067B0075A34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0E38D11CCB067B0075A34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0E38D81CCB067B0075A34C;
+			remoteInfo = CopyableLabelDemo;
+		};
+		BF0E38F91CCB067B0075A34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0E38D11CCB067B0075A34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0E38D81CCB067B0075A34C;
+			remoteInfo = CopyableLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF0E38D91CCB067B0075A34C /* CopyableLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyableLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0E38DC1CCB067B0075A34C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF0E38DE1CCB067B0075A34C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF0E38E11CCB067B0075A34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF0E38E31CCB067B0075A34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF0E38E61CCB067B0075A34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF0E38E81CCB067B0075A34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0E38ED1CCB067B0075A34C /* CopyableLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyableLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0E38F11CCB067B0075A34C /* CopyableLabelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableLabelDemoTests.swift; sourceTree = "<group>"; };
+		BF0E38F31CCB067B0075A34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0E38F81CCB067B0075A34C /* CopyableLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyableLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0E38FC1CCB067B0075A34C /* CopyableLabelDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableLabelDemoUITests.swift; sourceTree = "<group>"; };
+		BF0E38FE1CCB067B0075A34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF0E38D61CCB067B0075A34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0E38EA1CCB067B0075A34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0E38F51CCB067B0075A34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF0E38D01CCB067B0075A34C = {
+			isa = PBXGroup;
+			children = (
+				BF0E38DB1CCB067B0075A34C /* CopyableLabelDemo */,
+				BF0E38F01CCB067B0075A34C /* CopyableLabelDemoTests */,
+				BF0E38FB1CCB067B0075A34C /* CopyableLabelDemoUITests */,
+				BF0E38DA1CCB067B0075A34C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF0E38DA1CCB067B0075A34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF0E38D91CCB067B0075A34C /* CopyableLabelDemo.app */,
+				BF0E38ED1CCB067B0075A34C /* CopyableLabelDemoTests.xctest */,
+				BF0E38F81CCB067B0075A34C /* CopyableLabelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF0E38DB1CCB067B0075A34C /* CopyableLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF0E38DC1CCB067B0075A34C /* AppDelegate.swift */,
+				BF0E38DE1CCB067B0075A34C /* ViewController.swift */,
+				BF0E38E01CCB067B0075A34C /* Main.storyboard */,
+				BF0E38E31CCB067B0075A34C /* Assets.xcassets */,
+				BF0E38E51CCB067B0075A34C /* LaunchScreen.storyboard */,
+				BF0E38E81CCB067B0075A34C /* Info.plist */,
+			);
+			path = CopyableLabelDemo;
+			sourceTree = "<group>";
+		};
+		BF0E38F01CCB067B0075A34C /* CopyableLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF0E38F11CCB067B0075A34C /* CopyableLabelDemoTests.swift */,
+				BF0E38F31CCB067B0075A34C /* Info.plist */,
+			);
+			path = CopyableLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		BF0E38FB1CCB067B0075A34C /* CopyableLabelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF0E38FC1CCB067B0075A34C /* CopyableLabelDemoUITests.swift */,
+				BF0E38FE1CCB067B0075A34C /* Info.plist */,
+			);
+			path = CopyableLabelDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF0E38D81CCB067B0075A34C /* CopyableLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0E39011CCB067B0075A34C /* Build configuration list for PBXNativeTarget "CopyableLabelDemo" */;
+			buildPhases = (
+				BF0E38D51CCB067B0075A34C /* Sources */,
+				BF0E38D61CCB067B0075A34C /* Frameworks */,
+				BF0E38D71CCB067B0075A34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopyableLabelDemo;
+			productName = CopyableLabelDemo;
+			productReference = BF0E38D91CCB067B0075A34C /* CopyableLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF0E38EC1CCB067B0075A34C /* CopyableLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0E39041CCB067B0075A34C /* Build configuration list for PBXNativeTarget "CopyableLabelDemoTests" */;
+			buildPhases = (
+				BF0E38E91CCB067B0075A34C /* Sources */,
+				BF0E38EA1CCB067B0075A34C /* Frameworks */,
+				BF0E38EB1CCB067B0075A34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF0E38EF1CCB067B0075A34C /* PBXTargetDependency */,
+			);
+			name = CopyableLabelDemoTests;
+			productName = CopyableLabelDemoTests;
+			productReference = BF0E38ED1CCB067B0075A34C /* CopyableLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF0E38F71CCB067B0075A34C /* CopyableLabelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0E39071CCB067B0075A34C /* Build configuration list for PBXNativeTarget "CopyableLabelDemoUITests" */;
+			buildPhases = (
+				BF0E38F41CCB067B0075A34C /* Sources */,
+				BF0E38F51CCB067B0075A34C /* Frameworks */,
+				BF0E38F61CCB067B0075A34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF0E38FA1CCB067B0075A34C /* PBXTargetDependency */,
+			);
+			name = CopyableLabelDemoUITests;
+			productName = CopyableLabelDemoUITests;
+			productReference = BF0E38F81CCB067B0075A34C /* CopyableLabelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF0E38D11CCB067B0075A34C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jimmy;
+				TargetAttributes = {
+					BF0E38D81CCB067B0075A34C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EJ7PPF7RZJ;
+					};
+					BF0E38EC1CCB067B0075A34C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EJ7PPF7RZJ;
+						TestTargetID = BF0E38D81CCB067B0075A34C;
+					};
+					BF0E38F71CCB067B0075A34C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EJ7PPF7RZJ;
+						TestTargetID = BF0E38D81CCB067B0075A34C;
+					};
+				};
+			};
+			buildConfigurationList = BF0E38D41CCB067B0075A34C /* Build configuration list for PBXProject "CopyableLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF0E38D01CCB067B0075A34C;
+			productRefGroup = BF0E38DA1CCB067B0075A34C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF0E38D81CCB067B0075A34C /* CopyableLabelDemo */,
+				BF0E38EC1CCB067B0075A34C /* CopyableLabelDemoTests */,
+				BF0E38F71CCB067B0075A34C /* CopyableLabelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF0E38D71CCB067B0075A34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0E38E71CCB067B0075A34C /* LaunchScreen.storyboard in Resources */,
+				BF0E38E41CCB067B0075A34C /* Assets.xcassets in Resources */,
+				BF0E38E21CCB067B0075A34C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0E38EB1CCB067B0075A34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0E38F61CCB067B0075A34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0E38D51CCB067B0075A34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0E38DF1CCB067B0075A34C /* ViewController.swift in Sources */,
+				BF0E38DD1CCB067B0075A34C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0E38E91CCB067B0075A34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0E38F21CCB067B0075A34C /* CopyableLabelDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0E38F41CCB067B0075A34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0E38FD1CCB067B0075A34C /* CopyableLabelDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF0E38EF1CCB067B0075A34C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0E38D81CCB067B0075A34C /* CopyableLabelDemo */;
+			targetProxy = BF0E38EE1CCB067B0075A34C /* PBXContainerItemProxy */;
+		};
+		BF0E38FA1CCB067B0075A34C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0E38D81CCB067B0075A34C /* CopyableLabelDemo */;
+			targetProxy = BF0E38F91CCB067B0075A34C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF0E38E01CCB067B0075A34C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0E38E11CCB067B0075A34C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF0E38E51CCB067B0075A34C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0E38E61CCB067B0075A34C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF0E38FF1CCB067B0075A34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF0E39001CCB067B0075A34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF0E39021CCB067B0075A34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CopyableLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airactart.CopyableLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF0E39031CCB067B0075A34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CopyableLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airactart.CopyableLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF0E39051CCB067B0075A34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CopyableLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airactart.CopyableLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopyableLabelDemo.app/CopyableLabelDemo";
+			};
+			name = Debug;
+		};
+		BF0E39061CCB067B0075A34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CopyableLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airactart.CopyableLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopyableLabelDemo.app/CopyableLabelDemo";
+			};
+			name = Release;
+		};
+		BF0E39081CCB067B0075A34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CopyableLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airactart.CopyableLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CopyableLabelDemo;
+			};
+			name = Debug;
+		};
+		BF0E39091CCB067B0075A34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CopyableLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airactart.CopyableLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CopyableLabelDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF0E38D41CCB067B0075A34C /* Build configuration list for PBXProject "CopyableLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0E38FF1CCB067B0075A34C /* Debug */,
+				BF0E39001CCB067B0075A34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0E39011CCB067B0075A34C /* Build configuration list for PBXNativeTarget "CopyableLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0E39021CCB067B0075A34C /* Debug */,
+				BF0E39031CCB067B0075A34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF0E39041CCB067B0075A34C /* Build configuration list for PBXNativeTarget "CopyableLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0E39051CCB067B0075A34C /* Debug */,
+				BF0E39061CCB067B0075A34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF0E39071CCB067B0075A34C /* Build configuration list for PBXNativeTarget "CopyableLabelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0E39081CCB067B0075A34C /* Debug */,
+				BF0E39091CCB067B0075A34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF0E38D11CCB067B0075A34C /* Project object */;
+}
