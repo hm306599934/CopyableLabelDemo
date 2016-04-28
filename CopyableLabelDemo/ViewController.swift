@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        let gestureRecognizer = UILongPressGestureRecognizer(target: self, action: #selector(ViewController.longPressLabelGesture(_:)))
+        mLabel.addGestureRecognizer(gestureRecognizer)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +24,25 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func longPressLabelGesture(gestureRecognizer: UILongPressGestureRecognizer) {
+        if gestureRecognizer.state == .Began {
+            let menu = UIMenuController.sharedMenuController()
+            menu.setTargetRect(mLabel.bounds, inView: mLabel!)
+            menu.menuItems = [UIMenuItem(title: "复制", action: #selector(ViewController.actionCopy))]
+            menu.setMenuVisible(true, animated: true)
+            
+            mLabel.becomeFirstResponder()
+        }
+    }
+    
+    override func canBecomeFirstResponder() -> Bool {
+        return true
+    }
+    
+    
+    func actionCopy() {
+        print("lalala")
+    }
 
 }
 
